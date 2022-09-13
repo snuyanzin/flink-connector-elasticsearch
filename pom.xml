@@ -834,6 +834,8 @@ under the License.
 						<exclude>**/target/**</exclude>
 						<exclude>docs/layouts/shortcodes/generated/**</exclude>
 						<exclude>docs/static/generated/**</exclude>
+						<!-- Tools: japicmp output -->
+						<exclude>tools/japicmp-output/**</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
