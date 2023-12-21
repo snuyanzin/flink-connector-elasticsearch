@@ -38,7 +38,7 @@ under the License.
 	<properties>
 		<elasticsearch.version>7.10.2</elasticsearch.version>
 		<flink.connector.module.config><!-- required by
-		Elasticsearch6DynamicSinkITCase -->  --add-opens=java.base/java.util=ALL-UNNAMED </flink.connector.module.config>
+		Elasticsearch7DynamicSinkITCase -->  --add-opens=java.base/java.util=ALL-UNNAMED </flink.connector.module.config>
 	</properties>
 
 	<dependencies>
