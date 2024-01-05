@@ -67,6 +67,7 @@ under the License.
 									<systemPropertyVariables>
 										<moduleDir>${project.basedir}</moduleDir>
 									</systemPropertyVariables>
+									<argLine>${flink.surefire.baseArgLine} -Xmx${flink.XmxUnitTest}</argLine>
 								</configuration>
 							</execution>
 						</executions>
